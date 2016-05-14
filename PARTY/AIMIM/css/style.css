@@ -1109,7 +1109,7 @@ section.contact-infos {
 .date-wrap .date {
     font-size: 30px;
     font-weight: 300;
-    background: #D81B81;
+    background: #23793a;
     color: #fff;
     border-radius: 1px 1px 0 0;
     -webkit-border-radius: 1px 1px 0 0;
@@ -1147,7 +1147,7 @@ section.contact-infos {
 .blog-item h1,
 .blog-item h1 a {
     font-size: 25px;
-    color: #D81B81;
+    color: #23793a;
     font-weight: 300;
 }
 .blog-item h1 {
@@ -1421,7 +1421,7 @@ ul.page-footer-list li i { padding-right: 10px }
     text-align: center;
     /*margin-bottom: 20px;*/
     text-transform: uppercase;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
     font-weight: 400;
     padding-bottom: 5px;
     margin-bottom: 20px;
@@ -1448,8 +1448,8 @@ ul.page-footer-list li i { padding-right: 10px }
 }
 /*property*/
 .property {
-    padding: 80px 0;
-    margin-bottom: 60px;
+    padding: 40px 0;
+    margin-bottom: 20px;
     /*background-color: #fafafa;*/
 }
 .bg-lg { background:#f9f9f3  }
@@ -2579,7 +2579,7 @@ p { text-align: left }
 .btn.btn-info:hover,
 .btn.btn-info:active,
 .btn.btn-info.hover {
-    background-color: #D81B81;
+    background-color: #23793a;
     border: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -2990,7 +2990,7 @@ div.header h3{
         margin-top:10px;
         float: left; }
 .header-main .navbar .navbar-header .logo h1 {
-        clear: right;
+        float: right;
         font-family: Arial;
         font-size: 50px;
         font-weight: 900;
@@ -3005,3 +3005,14 @@ div.header h3{
         padding: 0;
         margin: 0; }
        .wow p{width:100% !important}
+       
+       
+       .form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+       
+       
+       
+       
+       

@@ -758,7 +758,7 @@ h1[id] {
 }
 
 .bs-example:after {
-    content: "Example";
+    content: "Join Us - Make sure that all mandatory fields marked with Red Asterisk '*' are filled in!";
     position: absolute;
     top: 15px;
     left: 15px;
